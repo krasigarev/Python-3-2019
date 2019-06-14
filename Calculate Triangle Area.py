@@ -1,5 +1,5 @@
-base = int(input())
-height = int(input())
+base = float(input())
+height = float(input())
 
 
 def calculate_triangle_area(num1, num2):
@@ -7,9 +7,10 @@ def calculate_triangle_area(num1, num2):
     return area
 
 
-var = int(calculate_triangle_area(base, height))
+area = calculate_triangle_area(base, height)
 
-print(var)
+print("Area: " + str(area))
+
 
 
 
